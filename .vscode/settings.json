@@ -1,4 +1,8 @@
 {
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/kome:${workspaceFolder}/tests"
+    },
+    "python.envFile": "${workspaceFolder}/.env",
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
@@ -8,5 +12,6 @@
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
 }
