@@ -1,0 +1,5 @@
+requests
+bs4
+pytest
+flake8
+black
